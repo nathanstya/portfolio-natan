@@ -357,7 +357,7 @@ export default function Home() {
                 },
                 {
                   badge: "Full-Stack Web App",
-                  title: "Fotocopy Dwi Abadi",
+                  title: "Fotocopy Dwi Abadi Website",
                   desc: "Website profil bisnis fotocopy & cetak foto dengan halaman layanan, galeri, form pemesanan online, dan panel admin untuk mengelola pesanan masuk.",
                   tags: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
                   number: "05",
