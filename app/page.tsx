@@ -345,6 +345,16 @@ export default function Home() {
                   accent: "text-blue-400",
                   border: "hover:border-blue-400/40",
                 },
+                {
+                  badge: "Publikasi Ilmiah · SENATIB 2024",
+                  title: "IoT Soil Monitor",
+                  desc: "Rancang bangun alat pemantau suhu, kelembaban udara, dan kelembaban tanah berbasis IoT menggunakan NodeMCU ESP8266 & sensor DHT11. Data dikirim real-time ke aplikasi Blynk untuk pemantauan jarak jauh kondisi tanah dan lingkungan.",
+                  tags: ["IoT", "NodeMCU ESP8266", "DHT11", "Blynk", "Automation"],
+                  number: "04",
+                  color: "from-yellow-500/20 to-orange-500/10",
+                  accent: "text-yellow-400",
+                  border: "hover:border-yellow-400/40",
+                },
               ].map((p, i) => (
                 <div key={i} className={`group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-all duration-300 ${p.border} hover:bg-white/8`}>
                   {/* Number watermark */}
