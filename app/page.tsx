@@ -317,7 +317,7 @@ export default function Home() {
               {[
                 {
                   badge: "Full-Stack Web App",
-                  title: "Mamamatcha",
+                  title: "Mamamatcha Website",
                   desc: "Website kedai minuman matcha di Karanganyar dengan landing page, menu, dan backend Node.js + Express + MySQL + JWT authentication.",
                   tags: ["HTML", "CSS", "Node.js", "Express", "MySQL"],
                   number: "01",
@@ -337,7 +337,7 @@ export default function Home() {
                 },
                 {
                   badge: "Full-Stack Web App",
-                  title: "Pendaftaran Pasien",
+                  title: "Pendaftaran Pasien Website",
                   desc: "Sistem informasi pendaftaran pasien rumah sakit dengan manajemen data pasien, dokter, poli, dan pendaftaran. Dilengkapi autentikasi login, CRUD lengkap, dan fitur cetak pendaftaran.",
                   tags: ["PHP", "MySQL", "HTML", "CSS"],
                   number: "03",
