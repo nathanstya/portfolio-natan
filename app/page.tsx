@@ -142,7 +142,7 @@ export default function Home() {
               <h2 className="text-4xl font-semibold sm:text-5xl">
                 Hello, my name is{" "}
                 <span className="bg-gradient-to-r from-purple-400 to-cyan-300 bg-clip-text text-transparent">
-                  Natan
+                  Natan Setyo Agung
                 </span>
               </h2>
 
@@ -200,7 +200,7 @@ export default function Home() {
             <div className="mb-4 grid grid-cols-1 gap-4 lg:grid-cols-[1fr_320px]">
               <div className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm">
                 <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-purple-600 text-lg">👋</div>
-                <h3 className="mb-4 text-2xl font-black uppercase sm:text-3xl">Hi, I&apos;m Natan.</h3>
+                <h3 className="mb-4 text-2xl font-black uppercase sm:text-3xl">Hi, I&apos;m Natan Setyo Agung.</h3>
                 <p className="mb-3 text-sm leading-7 text-zinc-400">
                   Seorang mahasiswa Teknik Informatika yang sedang belajar fullstack development. Saya fokus membangun aplikasi web dari frontend hingga backend dengan teknologi modern.
                 </p>
