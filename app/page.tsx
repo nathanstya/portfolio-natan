@@ -335,6 +335,16 @@ export default function Home() {
                   accent: "text-purple-400",
                   border: "hover:border-purple-400/40",
                 },
+                {
+                  badge: "Full-Stack Web App",
+                  title: "Pendaftaran Pasien",
+                  desc: "Sistem informasi pendaftaran pasien rumah sakit dengan manajemen data pasien, dokter, poli, dan pendaftaran. Dilengkapi autentikasi login, CRUD lengkap, dan fitur cetak pendaftaran.",
+                  tags: ["PHP", "MySQL", "HTML", "CSS"],
+                  number: "03",
+                  color: "from-blue-500/20 to-cyan-500/10",
+                  accent: "text-blue-400",
+                  border: "hover:border-blue-400/40",
+                },
               ].map((p, i) => (
                 <div key={i} className={`group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-all duration-300 ${p.border} hover:bg-white/8`}>
                   {/* Number watermark */}
