@@ -355,6 +355,16 @@ export default function Home() {
                   accent: "text-yellow-400",
                   border: "hover:border-yellow-400/40",
                 },
+                {
+                  badge: "Full-Stack Web App",
+                  title: "Fotocopy Dwi Abadi",
+                  desc: "Website profil bisnis fotocopy & cetak foto dengan halaman layanan, galeri, form pemesanan online, dan panel admin untuk mengelola pesanan masuk.",
+                  tags: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+                  number: "05",
+                  color: "from-orange-500/20 to-yellow-500/10",
+                  accent: "text-orange-400",
+                  border: "hover:border-orange-400/40",
+                },
               ].map((p, i) => (
                 <div key={i} className={`group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-all duration-300 ${p.border} hover:bg-white/8`}>
                   {/* Number watermark */}
