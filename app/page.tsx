@@ -250,9 +250,9 @@ export default function Home() {
                 </div>
                 <div className="space-y-4">
                   {[
-                    { label: "Core Languages", items: ["HTML5", "CSS3", "JavaScript", "PHP"] },
-                    { label: "Frameworks & UI", items: ["Node.js", "Responsive Design"] },
-                    { label: "Tools & Ecosystem", items: ["MySQL", "Figma", "GitHub", "VS Code"] },
+                    { label: "Languages", items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "PHP"] },
+                    { label: "Frameworks & Runtime", items: ["Next.js", "React", "Node.js", "Express.js", "Tailwind CSS"] },
+                    { label: "Database & Tools", items: ["MySQL", "Git", "GitHub", "Figma", "VS Code"] },
                   ].map(({ label, items }) => (
                     <div key={label}>
                       <p className="mb-2 text-xs uppercase tracking-widest text-zinc-500">{label}</p>
