@@ -135,7 +135,7 @@ export default function Home() {
 
             {/* LEFT — Text */}
             <div className="flex-1 max-w-xl text-center lg:text-left">
-              <p className="mb-3 text-sm uppercase tracking-[0.2em] text-zinc-400">
+              <p className="mb-3 text-sm uppercase tracking-widest text-zinc-400">
                 Welcome to my portfolio
               </p>
 
@@ -307,13 +307,13 @@ export default function Home() {
           <section id="project" className="mx-auto w-full max-w-6xl pb-20 pt-4">
             <div className="mb-12 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
               <div>
-                <p className="mb-2 text-xs uppercase tracking-[0.2em] text-zinc-500">My Work</p>
+                <p className="mb-2 text-xs uppercase tracking-widest text-zinc-500">My Work</p>
                 <h2 className="text-4xl font-black uppercase leading-tight sm:text-5xl">Selected<br />Works</h2>
               </div>
               <p className="max-w-xs text-sm text-zinc-400">A showcase of web projects focused on clean code, performance, and real-world use.</p>
             </div>
 
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
               {[
                 {
                   badge: "Full-Stack Web App",
@@ -326,21 +326,11 @@ export default function Home() {
                   border: "hover:border-green-400/40",
                 },
                 {
-                  badge: "Full-Stack Web App",
-                  title: "Pendaftaran Pasien",
-                  desc: "Sistem informasi pendaftaran pasien rumah sakit berbasis web. Fitur: manajemen pasien, dokter, poli, pendaftaran, cetak laporan, login & logout dengan session PHP.",
-                  tags: ["PHP", "MySQL", "CSS", "XAMPP"],
-                  number: "02",
-                  color: "from-blue-500/20 to-cyan-500/10",
-                  accent: "text-blue-400",
-                  border: "hover:border-blue-400/40",
-                },
-                {
                   badge: "Frontend",
                   title: "Portfolio Website",
                   desc: "Personal portfolio website dengan animasi smooth, responsive layout, dark theme, dan contact form terintegrasi EmailJS.",
                   tags: ["Next.js", "Tailwind", "TypeScript"],
-                  number: "03",
+                  number: "02",
                   color: "from-purple-500/20 to-cyan-500/10",
                   accent: "text-purple-400",
                   border: "hover:border-purple-400/40",

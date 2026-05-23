@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Portfolio Natan",
-  description: "Portfolio of Natan, a fullstack developer specializing in Next.js, React, and modern web technologies.",
+  description: "Portfolio of Natan, a fullstack developer specializing in Next.js and modern web technologies.",
 };
 
 export default function RootLayout({
