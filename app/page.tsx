@@ -250,7 +250,7 @@ export default function Home() {
                 </div>
                 <div className="space-y-4">
                   {[
-                    { label: "Languages", items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "PHP"] },
+                    { label: "Languages", items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "PHP", "Python"] },
                     { label: "Frameworks & Runtime", items: ["Next.js", "Node.js", "Tailwind CSS"] },
                     { label: "Database & Tools", items: ["MySQL", "Git", "GitHub", "Figma", "VS Code"] },
                   ].map(({ label, items }) => (
